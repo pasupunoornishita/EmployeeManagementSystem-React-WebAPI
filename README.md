@@ -1,70 +1,248 @@
-# Getting Started with Create React App
+# 🚀 Employee Management System using React & ASP.NET Core Web API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React](https://img.shields.io/badge/React-Frontend-61DAFB)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-Web_API-512BD4)
+![C#](https://img.shields.io/badge/C%23-.NET-239120)
+![SQL Server](https://img.shields.io/badge/SQL_Server-Database-CC2927)
+![EF Core](https://img.shields.io/badge/EF_Core-ORM-6F42C1)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![License](https://img.shields.io/badge/License-Academic-lightgrey)
 
-## Available Scripts
+## ⭐ Project Highlights
 
-In the project directory, you can run:
+✔️ Developed a full-stack Employee Management System using React and ASP.NET Core Web API
 
-### `npm start`
+✔️ Built a responsive and user-friendly frontend using React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✔️ Developed RESTful APIs using ASP.NET Core Web API
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✔️ Implemented Employee CRUD (Create, Read, Update, Delete) operations
 
-### `npm test`
+✔️ Integrated SQL Server for efficient data storage and retrieval
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✔️ Utilized Entity Framework Core for database operations
 
-### `npm run build`
+✔️ Applied Clean Architecture principles for maintainable code
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+✔️ Established seamless frontend-backend communication using Axios
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📌 About the Project
 
-### `npm run eject`
+Employee Management System is a full-stack web application designed to streamline employee information management.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The application allows users to:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+👨‍💼 Add Employees
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+✏️ Update Employee Details
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🗑️ Delete Employees
 
-## Learn More
+📋 View Employee Records
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🔍 Search Employees
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🏢 Manage Department Information
 
-### Code Splitting
+The project demonstrates modern web development practices using React for the frontend and ASP.NET Core Web API for the backend.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🧠 Tech Stack (ATS Keywords)
 
-### Analyzing the Bundle Size
+### Frontend
+- React.js
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
+- Axios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Backend
+- ASP.NET Core Web API
+- C#
+- Entity Framework Core
 
-### Making a Progressive Web App
+### Database
+- SQL Server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Tools
+- Visual Studio 2022
+- Visual Studio Code
+- SQL Server Management Studio (SSMS)
+- GitHub
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🏗️ Architecture
 
-### Deployment
+React Frontend
+       ↓
+Axios API Calls
+       ↓
+ASP.NET Core Web API
+       ↓
+Entity Framework Core
+       ↓
+SQL Server Database
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## ⚙️ Installation Guide
 
-### `npm run build` fails to minify
+### 🔹 Clone Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+bash
+git clone
+
+https://github.com/pasupunoornishita/EmployeeManagementSystem-React-WebAPI
+
+### 🔹 Backend Setup
+
+bash
+cd EmployeeManagementAPI
+
+
+Update the connection string in:
+
+json
+appsettings.json
+
+Apply migrations:
+
+bash
+Update-Database
+
+Run the API:
+
+bash
+dotnet run
+
+### 🔹 Frontend Setup
+bash
+cd employee-management-frontend
+
+npm install
+
+npm run dev
+
+## 🎛️ Features
+
+✅ Add Employee
+
+✅ Edit Employee
+
+✅ Delete Employee
+
+✅ View Employee Details
+
+✅ Department Management
+
+✅ Search Functionality
+
+✅ REST API Integration
+
+✅ Responsive User Interface
+
+✅ SQL Server Database Support
+
+✅ Entity Framework Core Integration
+
+
+
+## 📊 Performance & Results
+
+📈 Efficient employee data management
+
+📉 Reduced manual record handling
+
+⚡ Fast frontend-backend communication
+
+🔄 Real-time CRUD operations
+
+📊 Scalable application architecture
+
+
+
+## 🧪 Testing
+
+✔️ API Endpoint Testing
+
+✔️ CRUD Operations Testing
+
+✔️ Database Connectivity Testing
+
+✔️ Frontend Validation Testing
+
+✔️ Responsive UI Testing
+
+✔️ Error Handling Validation
+
+
+## 📸 Output Preview
+
+### Employee List
+
+<img width="1674" height="1043" alt="image" src="https://github.com/user-attachments/assets/bb6266f7-82b7-4cb1-b1bd-5065d064d6a7" />
+
+### Employee Details
+
+<img width="1380" height="958" alt="image" src="https://github.com/user-attachments/assets/946552ee-943a-441f-85b3-8ccd954f948b" />
+
+### Add Employee
+
+<img width="1708" height="957" alt="Add Employee" src="https://github.com/user-attachments/assets/ea5b400c-96fa-4233-b3be-9b94158ac202" />
+
+### Edit Employee
+
+<img width="1749" height="857" alt="Edit Employee" src="https://github.com/user-attachments/assets/00a1d9cc-2635-4f43-9598-f43a35917f27" />
+
+### Backend API Output
+
+The ASP.NET Core Web API exposes RESTful endpoints for employee management operations.
+
+<img width="643" height="1118" alt="image" src="https://github.com/user-attachments/assets/1b8c3f73-55a8-4a92-86d5-6688da973ec8" />
+
+## 🔮 Future Enhancements
+
+🔹 JWT Authentication & Authorization
+
+🔹 Role-Based Access Control (RBAC)
+
+🔹 Employee Attendance Management
+
+🔹 Leave Management Module
+
+🔹 Payroll Management
+
+🔹 Dashboard Analytics
+
+🔹 Azure Cloud Deployment
+
+🔹 Email Notifications
+
+## 👩‍💻 Author
+
+**Pasupunoor Nishita**
+
+Information Technology Associate - Trainee
+
+Full Stack .NET Developer
+
+## 🎓 Project Type
+
+Academic & Learning Project
+
+Developed to demonstrate React, ASP.NET Core Web API, SQL Server, Entity Framework Core, and full-stack application development.
+
+## 🌟 Support
+
+If you like this project:
+
+⭐ Star this repository
+
+🍴 Fork this repository
+
+📢 Share it with others
+
+## 📌 License
+
+This project is intended for educational and learning purposes.
